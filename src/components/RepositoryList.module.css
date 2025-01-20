@@ -1,0 +1,44 @@
+.container {
+  padding: 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  margin-bottom: 16px;
+}
+
+.list {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 16px;
+  position: relative;
+}
+
+.card {
+  height: 80px;
+  margin-bottom: 16px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.textField {
+  flex: 1;
+}
+
+.deleteButton {
+  margin-left: 16px;
+  height: 40px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "vk-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx vitest",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mui/icons-material": "^6.4.0",
+    "@mui/material": "^6.4.0",
+    "@testing-library/react": "^16.2.0",
+    "jsdom": "^26.0.0",
+    "mobx": "^6.13.5",
+    "mobx-react-lite": "^4.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/browser": "^3.0.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.2",
+    "vitest-browser-react": "^0.0.4"
+  }
+}
